@@ -1,0 +1,20 @@
+{% extends 'base/main.html' %}
+{% block content %}
+
+<div class="header-bar">    
+    <a href = "{% url 'home' %}" >Go back</a>
+</div>
+
+<div class="card-body">
+    <form action = "" method = "POST">
+
+        {% csrf_token %}
+        {{form.as_p}}
+
+        <input type = "submit" value = "Sumbit">
+    </form>
+</div>
+
+
+
+{% endblock content %}
