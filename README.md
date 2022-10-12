@@ -2,7 +2,9 @@
 Built using Django framework .
 
 What can you do:
+
 1.Create different users and each user sets its own tasks
+
 2.search a task you would like to update ,mark as complete or delete
 
 
